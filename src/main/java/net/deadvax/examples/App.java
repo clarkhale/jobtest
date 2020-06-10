@@ -15,8 +15,9 @@ public class App
 	int i = 5;
 
 	while( i > 0 ) {
-		System.out.println("Environment Definition:  " + System.getProperty("JOB_TEST"));
+		System.out.println("Environment Definition:  " + System.getenv("JOB_TEST"));
 		Thread.sleep(1);
+		i--;
 
 	}
     }
